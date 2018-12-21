@@ -1,0 +1,100 @@
+/*seletor {
+    propriedade: valor;
+} */
+*{
+    box-sizing: border-box;
+}
+
+/* PADRÃO */
+
+body {
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+}
+
+/* BANNER */
+
+.banner {
+    background-image: url(../img/img/banner-bg.png);
+    background-repeat: no-repeat;/*para não repetir a imagem */
+    background-size: cover; /*ocupar toda largura da tela */
+    height: 435px; /*altura da seção da imagem */
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.banner-titulo{
+    /* FONT DO GOOGLE */
+    font-family:'Encode Sans Condensed', sans-serif;
+    font-size: 2rem;
+    color:white;
+        
+}
+
+.banner-subtitulo {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.btn {
+    color: #7d5eb8;
+    text-decoration: none;
+    background-color: white;
+    padding: 0.5rem 0.8rem;
+    border-radius: 20px;
+
+}
+
+.btn-sobre-mim{
+    border: 2px solid #7d5eb8;
+    color: #7d5eb8;
+    text-decoration: none;
+    background-color: white;
+    padding: 0.5rem 0.8rem;
+    border-radius: 20px;
+
+}
+
+.container {
+    width: 2rem 8rem;
+}
+
+.sobre-mim-descricao, 
+.sobre-mim-habilidades {
+    width: 49%;
+    display: inline-block;
+    line-height: 1.5rem;
+} 
+
+.habili{
+    font-weight: bold;
+}
+
+/* SEÇAO REDES SOCIAIS */
+
+.redes-sociais-link {
+    background-color: #7d5eb8;
+    color: white;
+    display: inline-block;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    margin-left: 3.5rem;
+    text-decoration: none;
+}
+
+.redes-sociais-img {
+    max-width: 70px;
+    min-height: 70px;
+}
+
+.redes-sociais-titulo,
+.redes-sociais-subtitulo {
+  font-size: 1rem;
+}
+
+.footer {
+    text-align: center;
+}
